@@ -1,0 +1,184 @@
+/* 0 FONT FAMILY
+h1 {
+  font-family: cursive;
+  color: brown;
+}
+p{
+    font-family: monospace;
+    color:#000
+} */
+
+/*  1 FONT SIZE
+/* Pixels */
+/* h1 {
+  font-size: 40px;
+} */
+/* Percent
+p {
+  font-size: 240%;
+} */
+/* EM
+h3 {
+  font-size: 2em;
+} */
+
+/* 2 FONT FACE
+ @font-face {
+  font-family: test-font;
+  src: url("./Assets/Fonts/Anton-Regular.ttf");
+}
+h1 {
+  font-family: test-font;
+} */
+
+/* 3 FONT WEIGHT
+p {
+  font-weight: 900;
+} */
+
+/* 4 FONT STYLE
+#normal {
+  font-style: normal;
+}
+#italic {
+  font-style: italic;
+}
+#oblique {
+  font-style: oblique;
+} */
+
+/* 5 FONT TRANSFORM
+#capital {
+  text-transform: uppercase;
+}
+#normal {
+  text-transform: capitalize;
+}
+#small {
+  text-transform: lowercase;
+} */
+
+/* 6 TEXT DECORATION
+#none {
+  text-decoration: none;
+}
+#underline {
+  text-decoration: underline;
+}
+#line-through {
+  text-decoration: line-through;
+}
+#overline {
+  text-decoration: overline;
+} */
+
+/* 7 LINE HEIGHT
+p {
+  line-height: 20px;
+} */
+
+/* 8 LETTER AND WORD SPACING
+WORD SPACING
+h1{
+  word-spacing: 30px;
+}
+LETTER SPACING
+h1{
+  letter-spacing: 20px;
+} */
+
+/* 9 TEXT ALIGN
+h1 {
+  text-align: center;
+}
+p {
+  text-align: justify;
+} */
+
+/* 10 VERTICAL ALIGN
+img {
+  vertical-align: middle;
+} */
+
+/* 11 TEXT INDENT
+p {
+  text-indent: 40px;
+  text-align: justify;
+} */
+
+/* 12 TEXT SHADOW
+h1 {
+  background-color: rgb(221, 216, 206);
+  color: white;
+  text-shadow: 8px 4px 8px rgb(142, 35, 35);
+} */
+
+/* 13 FIRST LETTER AND LINE
+p::first-letter {
+  color: rgb(255, 51, 0);
+  background-color: blanchedalmond;
+}
+p::first-line {
+  background-color: rgb(200, 91, 91);
+  color: white;
+} */
+
+/* 14 STYLING LINKS
+/* a:link{
+  color: rgb(88, 71, 50);
+}
+a:visited{
+  color: brown;
+} */
+
+/* 15 RESPONDING USER
+HOVER
+input#bC:hover {
+  background-color: rgb(101, 101, 134);
+  color: white;
+}
+ACTIVE
+input#bC:active {
+  background-color: brown;
+}
+FOCUS
+input#aB:focus {
+  background-color: aquamarine;
+}
+input#bC:focus {
+  background-color: aquamarine;
+} */
+
+/* 16 ATTRIBUTES SELECTORS
+ EXISTENCE
+h1[test]{
+  color: red;
+} */
+
+/* EQUALITY
+h1[name="attribute"]{
+  color: red;
+} */
+
+/* SPACE
+h1[name~="ok"]
+{
+  color: red;
+} */
+
+/* PREFIX
+h1[name^="a"]
+{
+  color: brown;
+} */
+
+/* SUBSTRING
+h1[name*="ttr"]
+{
+  color: brown;
+} */
+
+/* SUFFIX
+h1[name$="r"] {
+  color: red;
+} */
